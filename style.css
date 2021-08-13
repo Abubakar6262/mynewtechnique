@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#nav-main{
+    padding-left: 20px;
+    padding-right: 20px;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    background-color: black;
+    border: 2px solid gray;
+}
+.nav-logo img{
+    width: 50px;
+    height: 50px;
+}
+#nav-main ul{
+    display: flex;
+}
+#nav-main ul li{
+    list-style: none;
+    
+}
+.nav-list a{
+    color:green;
+    text-decoration: none;
+    margin: 15px;
+    border: 2px solid blue;
+    border-radius: 50px;
+    padding: 3px 5px;
+    display: block;
+}
+#nav-main ul li a:hover{
+    color: black;
+    background-color:orange;
+}
+/* style of main card */
+.main-card{
+    margin-left: 200px;
+    position: relative;
+    justify-content: flex;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    margin-top: 50px;
+}
+.card-main-2{
+    margin-left:200px;
+    justify-content: flex;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    margin-top: 50px;
+}
+.card1{
+    width: 300px;
+    margin-right: 4px;
+    border: 2px solid black;
+}
+.card1 img{
+    height: 200px;
+    width: 296px;
+}
+.card1-body{
+    text-align: center;
+    padding: 2px 2px;
+    background-color: gray;
+}
+.card2{
+    width: 300px;
+    margin-right: 4px;
+    margin-left: 4px;
+    border: 2px solid black;
+}
+.card2 img{
+    height: 200px;
+    width: 296px;
+}
+.card2-body{
+    text-align: center;
+    padding: 2px 2px;
+    background-color: gray;
+}
+.card3{
+    width: 300px;
+    margin-left: 4px;
+    border: 2px solid black;
+}
+.card3 img{
+    height: 200px;
+    width: 296px;
+}
+.card3-body{
+    text-align: center;
+    padding: 2px 2px;
+    background-color: gray;
+}
+.main-footer{
+    background-color: gray;
+    border: 2px solid black;
+    margin: 20px 20px;
+    text-align: center;
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+}
+.main-footer p a{
+    text-decoration: none;
+}
